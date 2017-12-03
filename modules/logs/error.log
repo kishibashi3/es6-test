@@ -1,0 +1,124 @@
+[2017-12-03T00:19:12.865] [INFO] error - test
+[2017-12-03T01:00:11.399] [INFO] error - test
+[2017-12-03T01:10:31.314] [ERROR] error - test
+[2017-12-03T01:11:24.857] [ERROR] error - { Error: cannot read file : filename
+    at file:///C:/Users/%E5%92%8C%E6%B4%8B/apps/test-app/modules/src/errors.mjs:21:9
+    at ModuleJob.run (internal/loader/ModuleJob.js:96:14)
+    at <anonymous>
+  code: 'CO0000',
+  status: 400,
+  message: 'cannot read file : filename' }
+[2017-12-03T01:11:49.900] [ERROR] error - 
+Error: cannot read file : filename
+[2017-12-03T01:49:01.841] [ERROR] error - { Error: cannot read file : 
+    at new MyError (C:\Users\和洋\apps\test-app\modules\src/errors.mjs:12:28)
+    at Object.<anonymous> (C:\Users\和洋\apps\test-app\modules\test/errors.test.js:3:9)
+    at Module._compile (module.js:641:30)
+    at loader (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:228:14)
+    at Mocha.run (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:514:10)
+    at Object.<anonymous> (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:484:18)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Function.Module.runMain (module.js:682:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:613:3 code: 'CO0000', status: 400, message: 'cannot read file : ' }
+[2017-12-03T01:50:29.379] [ERROR] error - { Error: cannot read file : 
+    at new MyError (C:\Users\和洋\apps\test-app\modules\src/errors.mjs:12:28)
+    at Object.<anonymous> (C:\Users\和洋\apps\test-app\modules\test/errors.test.js:3:9)
+    at Module._compile (module.js:641:30)
+    at loader (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:228:14)
+    at Mocha.run (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:514:10)
+    at Object.<anonymous> (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:484:18)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Function.Module.runMain (module.js:682:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:613:3 code: 'CO0000', status: 400, message: 'cannot read file : ' }
+[2017-12-03T01:51:31.579] [ERROR] error - { Error: cannot read file : 
+    at new MyError (C:\Users\和洋\apps\test-app\modules\src/errors.mjs:12:28)
+    at Object.<anonymous> (C:\Users\和洋\apps\test-app\modules\test/errors.test.js:3:9)
+    at Module._compile (module.js:641:30)
+    at loader (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:228:14)
+    at Mocha.run (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:514:10)
+    at Object.<anonymous> (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:484:18)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Function.Module.runMain (module.js:682:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:613:3 code: 'CO0000', status: 400, message: 'cannot read file : ' }
+[2017-12-03T01:54:22.901] [INFO] error - { Error: cannot read file : 
+    at new MyError (C:\Users\和洋\apps\test-app\modules\src/errors.mjs:12:28)
+    at Object.<anonymous> (C:\Users\和洋\apps\test-app\modules\test/errors.test.js:4:9)
+    at Module._compile (module.js:641:30)
+    at loader (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:144:5)
+    at Object.require.extensions.(anonymous function) [as .js] (C:\Users\和洋\apps\test-app\node_modules\babel-register\lib\node.js:154:7)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Module.require (module.js:585:17)
+    at require (internal/module.js:11:18)
+    at C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:231:27
+    at Array.forEach (<anonymous>)
+    at Mocha.loadFiles (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:228:14)
+    at Mocha.run (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\lib\mocha.js:514:10)
+    at Object.<anonymous> (C:\Users\和洋\AppData\Roaming\npm\node_modules\mocha\bin\_mocha:484:18)
+    at Module._compile (module.js:641:30)
+    at Object.Module._extensions..js (module.js:652:10)
+    at Module.load (module.js:560:32)
+    at tryModuleLoad (module.js:503:12)
+    at Function.Module._load (module.js:495:3)
+    at Function.Module.runMain (module.js:682:10)
+    at startup (bootstrap_node.js:191:16)
+    at bootstrap_node.js:613:3 code: 'CO0000', status: 400, message: 'cannot read file : ' }
+[2017-12-03T01:54:41.229] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T01:55:54.736] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T01:56:09.606] [INFO] error - Error: cannot read file : 
+[2017-12-03T01:57:40.183] [INFO] error - Error: cannot read file : 
+[2017-12-03T01:58:05.618] [INFO] error - Error: cannot read file : 
+[2017-12-03T01:58:45.163] [INFO] error - Error: cannot read file : 
+[2017-12-03T01:59:31.212] [INFO] error - Error: cannot read file : 
+[2017-12-03T02:03:49.920] [INFO] error - Error: cannot read file : 
+[2017-12-03T02:04:07.878] [INFO] error - Error: cannot read file : 
+[2017-12-03T02:07:47.717] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T02:08:26.548] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T02:08:26.548] [INFO] error - Error: cannot read file : 
+[2017-12-03T02:08:59.638] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T02:08:59.639] [INFO] error - Error: cannot read file : 
+[2017-12-03T02:09:34.358] [INFO] error - {"code":"CO0000","status":400,"message":"cannot read file : "}
+[2017-12-03T02:09:34.360] [INFO] error - Error: cannot read file : 

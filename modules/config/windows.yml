@@ -1,0 +1,24 @@
+config:
+  log4js:
+    appenders:
+      system:
+        type: dateFile
+        filename: logs/system.log
+        pattern: -yyyy-MM-dd
+      error:
+        type: dateFile
+        filename: logs/error.log
+        pattern: -yyyy-MM-dd
+      default:
+        type: console
+    categories:
+      system:
+        appenders: [ system, default ]
+        level: ALL
+      error:
+        appenders: [ error, default ]
+        level: ALL
+      default:
+        appenders: [ default ]
+        level: ALL
+    replaceConsole: true

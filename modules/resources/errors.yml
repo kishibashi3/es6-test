@@ -1,0 +1,4 @@
+errors:
+  core:
+    FileIOError: { code: CO0000, status: 400, message: "cannot read file : {{file}}" }
+    FormatError: { code: C00001, status: 401, message: "file format error : {{file}}" }
